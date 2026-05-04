@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #170e1d;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+main{
+    padding: 20px;
+}
+
+#acc{
+  align-items: center;
+  height: 120vh;
+}
+
+#acc img{
+  width: 550px;
+  height: 550px;
+  border-radius: 50%; 
+  object-fit: cover;  
+  padding: 50px;
+}
+
+#acc a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;   
+  font-size: 18px;
+}
+.titre {
+    color: #170e1d;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.ligne {
+    width: 100%;
+    height: 2px;
+    background-color: #170e1d;
+    margin: 20px 0;
+}
+
+#propo {
+  padding: 10px;
+}
+#propo p {
+  margin: 30px;
+  line-height: 2;
+  font-size: 20px;
+}
+
+#comp {
+  padding: 10px;
+}
+.skill {
+  font-weight: bold;
+  margin: 30px;
+}
+.bar {
+  height: 12px;
+  background: #170e1d;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.fill {
+  height: 100%;
+  background: #946ca7;
+  width: 0;
+  animation: grow 2s forwards;
+}
+@keyframes grow {
+  from { width: 0; }
+  to { }
+}
+
+#exp{
+  padding: 10px;
+}
+
+#form {
+  padding: 10px;
+}
+.content {
+  display: none;
+  padding: 10px;
+  background: #946ca7;
+  border-radius: 10px;
+}
+#form h3 {
+  cursor: pointer;
+  background: #170e1d;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.monprojet{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+.formulaire {
+  width: 400px;
+  margin: auto;
+  padding: 50px;
+  border: 2px solid #170e1d;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+.formulaire label {
+  display: block;
+  margin-top: 10px;
+}
+.formulaire input,
+.formulaire textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+.formulaire .btnEnvoyer {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #170e1d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.formulaire .btnEnvoyer:hover {
+  background-color: #946ca7;
+}
+.alert {
+  background: #ffe5e5;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  color: red;
+  margin: 10px;
+}
+
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 20px;
+  }
+
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  header nav a {
+    font-size: 16px;
+  }
+
+  
+  #acc {
+    height: auto;
+    text-align: center;
+  }
+
+  #acc img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+  }
+
+  #acc h1 {
+    font-size: 22px;
+  }
+
+  #acc p {
+    font-size: 16px;
+  }
+
+  #acc a {
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+  }
+
+ 
+  .titre {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #propo p {
+    font-size: 16px;
+    margin: 10px;
+    line-height: 1.6;
+  }
+
+  /* Compétences */
+  .skill {
+    margin: 15px;
+  }
+
+  /* Projets */
+  .monprojet {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Formation */
+  #form h3 {
+    font-size: 16px;
+  }
+
+  /* Formulaire */
+  .formulaire {
+    width: 90%;
+    padding: 30px;
+  }
+}

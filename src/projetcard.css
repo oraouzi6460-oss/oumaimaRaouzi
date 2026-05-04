@@ -1,0 +1,30 @@
+.projet-card {
+  width: 280px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: block;
+}
+
+.projet-card a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #170e1d;
+}
+a:hover{
+    text-decoration: underline;
+    color: #946ca7;
+}
+.projet-card img {
+  width: 30%;
+  height: 100%;
+  border-radius: 50%;
+  background: white;
+  padding: 4px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
