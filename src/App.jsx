@@ -79,9 +79,9 @@ function App() {
         <a href="#form">Formation</a>
         <a href="#exp">Expériences & Projets</a>
         <a href="#contact">contact</a>
-      </nav>
-
-      <div id="acc">
+      </nav>  
+    </header>
+    <div id="acc">
         <img src={profile} alt="photoprofil" />
         <h1>Oumaima Raouzi</h1>
         <p>Étudiante à la faculté des sciences Semlalia, filière informatique</p>
@@ -90,8 +90,6 @@ function App() {
         <a href="https://github.com/oraouzi6460-oss">GitHub</a>
         <a href="https://www.linkedin.com/in/oumaima-raouzi-8650a53bb/">LinkedIn</a>
       </div>
-    </header>
-    
     <main>
       <div id="propo">
         <h2 className="titre">À propos</h2>

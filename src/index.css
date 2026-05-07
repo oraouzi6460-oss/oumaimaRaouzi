@@ -8,6 +8,7 @@ body {
 header{
     background-color: #170e1d;
     color: white;
+    width: 100%;
     padding: 50px;
     text-align: center;
     position: fixed;
@@ -27,6 +28,10 @@ main{
 }
 
 #acc{
+  background-color: #170e1d;
+  color: white;
+  padding: 60px;
+  text-align: center;
   align-items: center;
   height: 120vh;
 }
