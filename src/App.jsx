@@ -59,7 +59,7 @@ function App() {
     title: "Site CV interactif",
     description: "Création d’un CV web avec animations jQuery et React.",
     tech: ["HTML", "CSS", "React", "jQuery"],
-    link: "https://github.com/ton-github/cv-project"
+    link: "https://oraouzi6460-oss.github.io/oumaimaRaouzi/"
   },
   {
     title: "Site web de tourisme",
